@@ -18,11 +18,11 @@ public class ContaTerminal {
 
         System.out.println("Número da conta do Cliente: ");
         numeroConta = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer do teclado
+        scanner.nextLine(); 
         
         System.out.println("Saldo:" );
         saldoConta = scanner.nextDouble();
-        scanner.nextLine(); // Limpar o buffer do teclado
+        scanner.nextLine(); 
 
         System.out.println("Conta do Cliente:");
         System.out.println("Nome: " + nome);
